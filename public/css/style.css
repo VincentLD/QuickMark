@@ -1,0 +1,53 @@
+.main-panel {
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+    padding-bottom: 5em;
+}
+.navi-link:link {
+    color: #f17e5d !important;
+}
+.navi-link:hover {
+    color: #f17e5d !important;
+}
+.navi-link:active {
+    color: #f17e5d !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.copyright {
+    float: none !important;
+    text-align: center;
+}
+.sidebar-wrapper {
+    overflow: hidden !important;
+}
+
+/***  Add-prof  ***/
+
+.row-prof {
+    display: flex;
+    justify-content: space-around;
+}
+
+ /*** Add-Matiere ***/
+.row-exam {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-exam {
+    height: 300px;
+    align-self: center;
+}
+
+/*** Students ***/
+.table-student {
+    overflow: hidden;
+    padding: 0;
+}
