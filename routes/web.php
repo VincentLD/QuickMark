@@ -46,4 +46,5 @@ Route::put('/companies/{company}', 'CompaniesController@update');
 /*Stages */
 Route::get('liste-stages', 'InternshipsController@index')->name('liste-stages');
 Route::post('/stages', 'InternshipsController@store')->name('stage');
-
+Route::get('/stages/{stage}/edit', 'InternShipsController@edit');
+Route::get('/stages/{stage}/delete', 'InternshipsController@destroy');

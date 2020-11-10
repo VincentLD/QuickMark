@@ -4,15 +4,6 @@
     position: relative;
     padding-bottom: 5em;
 }
-.navi-link:link {
-    color: #f17e5d !important;
-}
-.navi-link:hover {
-    color: #f17e5d !important;
-}
-.navi-link:active {
-    color: #f17e5d !important;
-}
 
 footer {
     position: absolute;

@@ -32,7 +32,7 @@
                 @if(Auth::user()->is_admin)
                     <td>
                         <a href="/students/{{$student->id}}/edit"><button class="btn btn-warning btn-fab btn-icon btn-round"><i class="fas fa-pencil-alt"></i></button></a>
-                        <a href="/students/{{$student->id}}/delete"><button class="btn btn-danger btn-fab btn-icon btn-round"><i class="fas fa-times"></i></button></a>
+                        <a href="/students/{{$student->id}}/delete"><button class="btn btn-danger btn-fab btn-icon btn-round" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet étudiant ?');"><i class="fas fa-times"></i></button></a>
                     </td>
                 @endif
             </tr>

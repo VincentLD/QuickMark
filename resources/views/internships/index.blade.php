@@ -2,7 +2,12 @@
 
 @section('content')
 
-    @include('internships._create')
+
+    @unless(isset($editStage))
+        @include('internships._create')
+    @else
+        @include('internships._edit')
+    @endunless
 
     @include('internships._liste')
 

@@ -36,7 +36,8 @@
                         <input class="form-control @error('date_start') is-invalid @enderror"
                                name="date_start"
                                type="date"
-                               id="date_start">
+                               id="date_start"
+                        >
                     </div>
                     @error('date_start')
                     <span class="invalid-feedback" role="alert">
@@ -51,7 +52,8 @@
                         <input class="form-control @error('date_end') is-invalid @enderror"
                                name="date_end"
                                type="date"
-                               id="date_end">
+                               id="date_end"
+                        >
                     </div>
                     @error('date_end')
                     <span class="invalid-feedback" role="alert">
