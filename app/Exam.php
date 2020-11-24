@@ -11,4 +11,8 @@ class Exam extends Model
     public function user() {
         return $this->belongsToMany('App\User');
     }
+
+    public function student() {
+        return $this->belongsToMany('App\Student');
+    }
 }

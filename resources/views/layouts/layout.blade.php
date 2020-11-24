@@ -81,7 +81,7 @@
                     </a>
                 </li>
                 <li class="{{ request()->path() === 'gerer-notes' ? 'active' : '' }}">
-                    <a href="#" class="navi-link">
+                    <a href="{{ route('gestion-notes') }}" class="navi-link">
                         <i class="fas fa-pen-alt"></i>
                         <p>Gérer les notes</p>
                     </a>
