@@ -43,7 +43,7 @@ Route::get('/companies/{company}/edit', 'CompaniesController@edit');
 Route::get('/companies/{company}/delete', 'CompaniesController@destroy');
 Route::put('/companies/{company}', 'CompaniesController@update');
 
-/*Stages */
+/*Internship*/
 Route::get('liste-stages', 'InternshipsController@index')->name('liste-stages');
 Route::post('/stages', 'InternshipsController@store')->name('stage');
 Route::get('/stages/{stage}/edit', 'InternShipsController@edit');
@@ -52,3 +52,6 @@ Route::get('/stages/{stage}/delete', 'InternshipsController@destroy');
 /*Gestion notes*/
 Route::get('gestion-notes', 'Exam_StudentController@index')->name('gestion-notes');
 Route::post('add-note', 'Exam_StudentController@store')->name('notes');
+
+/*Synthese*/
+Route::get('synthese', 'SyntheseController@index')->name('synthese');

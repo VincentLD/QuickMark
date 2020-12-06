@@ -4,7 +4,6 @@
     position: relative;
     padding-bottom: 5em;
 }
-
 footer {
     position: absolute;
     bottom: 0;
@@ -19,14 +18,14 @@ footer {
     overflow: hidden !important;
 }
 
-/***  Add-prof  ***/
+/** Add-prof **/
 
 .row-prof {
     display: flex;
     justify-content: space-around;
 }
 
- /*** Add-Matiere ***/
+/** Add-Matiere **/
 .row-exam {
     display: flex;
     justify-content: space-around;
@@ -37,7 +36,7 @@ footer {
     align-self: center;
 }
 
-/*** Students ***/
+/** Students **/
 .table-student {
     overflow: hidden;
     padding: 0;

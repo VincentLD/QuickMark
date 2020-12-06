@@ -28,7 +28,6 @@ class StudentsController extends Controller
         }
     }
 
-
     public function store(Request $request)
     {
         Student::create(request()->validate( [
@@ -42,13 +41,6 @@ class StudentsController extends Controller
         return redirect()->back()->with('toast_success', ' Etudiant ajouté');
     }
 
-
-    public function show($id)
-    {
-        //
-    }
-
-
     public function edit($id)
     {
         $student = Student::find($id);
@@ -56,7 +48,6 @@ class StudentsController extends Controller
             'student' => $student
         ]);
     }
-
 
     public function update($id)
     {
@@ -73,7 +64,6 @@ class StudentsController extends Controller
 
         return redirect('/liste-eleves');
     }
-
 
     public function destroy($id)
     {

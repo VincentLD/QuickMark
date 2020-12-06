@@ -80,10 +80,16 @@
                         <p>Stages</p>
                     </a>
                 </li>
-                <li class="{{ request()->path() === 'gerer-notes' ? 'active' : '' }}">
+                <li class="{{ request()->path() === 'gestion-notes' ? 'active' : '' }}">
                     <a href="{{ route('gestion-notes') }}" class="navi-link">
                         <i class="fas fa-pen-alt"></i>
                         <p>Gérer les notes</p>
+                    </a>
+                </li>
+                <li class="{{ request()->path() === 'synthese' ? 'active' : '' }}">
+                    <a href="{{ route('synthese') }}" class="navi-link">
+                        <i class="far fa-chart-bar"></i>
+                        <p>Synthèse</p>
                     </a>
                 </li>
             </ul>
