@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d5daf5-2bc2-440a-bdf0-9b4a4f351dbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SyntheseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/synthese/_table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/synthese/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StudentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Exam_StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exam_StudentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_25_135650_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_135650_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gestionNotes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gestionNotes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/synthese/_table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/synthese/_table.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,6 +213,7 @@
       <workItem from="1607269438471" duration="206000" />
       <workItem from="1607269656446" duration="86000" />
       <workItem from="1607269754462" duration="3069000" />
+      <workItem from="1607525037062" duration="6880000" />
     </task>
     <servers />
   </component>
@@ -299,10 +296,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1086" y="186" width="1424" height="717" key="dock-window-4/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601130346038" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607272296399">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup" timestamp="1607531873816">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607272296399" />
+    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607531873816" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,6 +21,7 @@ class CreateStudentsTable extends Migration
             $table->date('birthdate');
             $table->string('option');
             $table->integer('insee')->unique();
+            $table->string('generalOpinion')->nullable();
             $table->timestamps();
         });
     }

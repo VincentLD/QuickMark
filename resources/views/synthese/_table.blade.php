@@ -80,6 +80,27 @@
                 <td colspan="2"></td>
             </tr>
             @endforeach
+            <tr>
+                <td colspan="2">AVIS DU CONSEIL DE CLASSE ET OBSERVATIONS EVENTUELLES</td>
+                <td colspan="5">COTATION DE LA CLASSE</td>
+                <td colspan="4">RÉSULTAT DE LA SECTION LES 3 DERNIÈRES ANNÉES</td>
+                <td>Visa du chef d'établissement et remarques éventuelles</td>
+                <td>Date et visa du président du jury</td>
+            </tr>
+            <tr>
+                <td rowspan="2">{{ $selectedStudent->generalOpinion }}</td>
+
+                <td>Répartition en %</td>
+                <table>
+                    <tr>Avis</tr>
+                    <tr>
+                        <td>Très favorable</td>
+                        <td>Favorable</td>
+                        <td>Doit faire ses preuves</td>
+                    </tr>
+                </table>
+                <td>Effectif total de la classe</td>
+            </tr>
         </table>
     </div>
 </div>

@@ -25,6 +25,8 @@ class Exam_StudentController extends Controller
             'mark' => $req->mark,
             'appreciation' => $req->appreciation,
         ]);
+        $student->generalOpinion = request('avisGeneral');
+        $student->save();
 
         return redirect()->back()->with('toast_success', 'Note ajoutée');
     }
