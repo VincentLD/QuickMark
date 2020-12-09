@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class Exam_StudentController extends Controller
 {
     public function index() {
-        $students = Student::all();
+        $students = Student::all()->sortBy('lastname');
         $exams = Exam::all();
         return view('gestionNotes.index', [
             'students' => $students,
@@ -18,8 +18,8 @@ class Exam_StudentController extends Controller
     }
 
     public function store(Request $req) {
-        $student =Student::find($req->student);
-        $exam = Exam::find($req->exam);
+        $student = Student::where('id', $req->student)->first();
+        $exam = Exam::where('id', $req->exam)->first();
 
         $student->exams()->attach($exam, [
             'mark' => $req->mark,

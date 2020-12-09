@@ -7,7 +7,7 @@
             <table class="table">
                 <thead class=" text-primary">
                 <tr>
-                    <th> #</th>
+                    <th> Référence</th>
                     <th class="w-50"> Matiere</th>
                     <th> Coefficient </th>
                     @if(Auth::user()->is_admin)
@@ -18,7 +18,7 @@
                 <tbody>
                 @foreach ($matieres as $matiere)
                     <tr>
-                        <td> {{ $matiere -> id }}</td>
+                        <td> {{ $matiere -> ref }}</td>
                         <td> {{ $matiere -> title }}</td>
                         <td> {{ $matiere -> coefficient }}</td>
                         @if(Auth::user()->is_admin)

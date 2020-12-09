@@ -13,42 +13,50 @@ class ExamsTableSeeder extends Seeder
     {
         $exams = [
             [
-                'title' => '(E1) Culture générale',
+                'ref' => 'U11',
+                'title' => 'Culture générale et expression',
                 'coefficient' => 2,
             ],
 
             [
-                'title' => '(E1) Anglais',
+                'ref' => 'U12',
+                'title' => 'Expression et communication en langue anglaise',
                 'coefficient' => 2,
             ],
 
             [
-                'title' => '(E2) Mathématiques',
+                'ref' => 'U21',
+                'title' => 'Mathématiques',
                 'coefficient' => 2,
             ],
 
             [
-                'title' => '(E2) Algorithmique appliquée',
+                'ref' => 'U22',
+                'title' => 'Algorithmique appliquée',
                 'coefficient' => 1,
             ],
 
             [
-                'title' => '(E3) Analyse économique, managériale et juridique des services informatiques',
+                'ref' => 'U3',
+                'title' => 'Analyse économique, managériale et juridique des services informatiques',
                 'coefficient' => 3,
             ],
 
             [
-                'title' => '(E4) Conception et maintenance des solutions informatiques',
+                'ref' => 'U4',
+                'title' => 'Conception et maintenance des solutions informatiques',
                 'coefficient' => 4,
             ],
 
             [
-                'title' => '(E5) Production et fourniture de services informatiques ',
+                'ref' => 'U5',
+                'title' => 'Production et fourniture de services informatiques ',
                 'coefficient' => 5,
             ],
 
             [
-                'title' => '(E6) Parcours de professionnalisation',
+                'ref' => 'U6',
+                'title' => 'Parcours de professionnalisation',
                 'coefficient' => 3,
             ],
         ];

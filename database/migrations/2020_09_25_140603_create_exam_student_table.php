@@ -19,7 +19,6 @@ class CreateExamStudentTable extends Migration
             $table->ForeignId('student_id')->constrained('students');
             $table->float('mark');
             $table->text('appreciation');
-            $table->timestamps();
         });
     }
 

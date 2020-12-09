@@ -12,7 +12,10 @@ class Exam extends Model
         return $this->belongsToMany('App\User');
     }
 
-    public function student() {
-        return $this->belongsToMany('App\Student');
+    public function students() {
+        return $this->belongsToMany(Student::class)
+            ->withPivot(['mark','appreciation','id'])
+            ->using(ExamStudent::class)
+            ;
     }
 }

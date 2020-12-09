@@ -20,11 +20,12 @@ class ExamsController extends Controller
 
     public function store(Request $request) {
         Exam::create(request()->validate([
+            'ref' => 'required',
             'title' => 'required',
             'coefficient' => 'required|numeric'
         ]));
 
-        return redirect()->back()->with('toast_success', 'Élève ajouté');
+        return redirect()->back()->with('toast_success', 'Matière ajoutée');
     }
 
     public function edit($id) {
