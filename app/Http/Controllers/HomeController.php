@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Internship;
+use App\Student;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +25,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $students = Student::all();
+        $stageStudent = Internship::all();
+        return view('home', [
+            'students' => $students,
+            'stages' => $stageStudent,
+        ]);
     }
 }

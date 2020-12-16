@@ -22,13 +22,22 @@ class SyntheseController extends Controller
         }
 
         $students = Student::all()->sortBy('lastname');
+        $nbStudents = Student::GetNombreStudent();
         $exams = Exam::all()->sortBy('name');
+
+        $statTresFavorable = Student::StatOpinion("Très Favorable");
+        $statFavorable = Student::StatOpinion("Favorable");
+        $statDFSP = Student::StatOpinion("Doit faire ses preuves");
 
         return view('synthese.index', [
             'students' => $students,
             'exams' => $exams,
             'selectedStudent' => $selectedStudent,
             'stageStudent' => $stageStudent,
+            'nbStudents' => $nbStudents,
+            'statTresFavorable' => $statTresFavorable,
+            'statFavorable' => $statFavorable,
+            'statDFSP' => $statDFSP,
         ]);
     }
 }

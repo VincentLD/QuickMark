@@ -62,21 +62,21 @@
                         <div class="col-md-4">
                             <div class="form-check form-check-radio">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="avisGeneral" value="tresFavorable" >
+                                    <input class="form-check-input" type="radio" name="avisGeneral" value="Très Favorable" >
                                     Très favorable
                                     <span class="form-check-sign"></span>
                                 </label>
                             </div>
                             <div class="form-check form-check-radio">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="avisGeneral" value="favorable">
+                                    <input class="form-check-input" type="radio" name="avisGeneral" value="Favorable">
                                     Favorable
                                     <span class="form-check-sign"></span>
                                 </label>
                             </div>
                             <div class="form-check form-check-radio">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="avisGeneral" value="doitFaireSesPreuves" >
+                                    <input class="form-check-input" type="radio" name="avisGeneral" value="Doit faire ses preuves" >
                                     Doit faire ses preuves
                                     <span class="form-check-sign"></span>
                                 </label>

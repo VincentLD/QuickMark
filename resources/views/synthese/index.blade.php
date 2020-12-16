@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-    <div class="container">
+    <div class="container top-table">
         <div class="row">
             <form action="" method="GET" id="form-synthese" >
                 @csrf
@@ -21,10 +21,10 @@
                 </div>
             </form>
         </div>
+        <input type="button" value="Imprimer la synthèse" onClick="window.print()">
     </div>
 
     @if($selectedStudent !== null)
         @include('synthese._table')
     @endif
 @endsection
-

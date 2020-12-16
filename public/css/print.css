@@ -1,0 +1,20 @@
+
+
+.sidebar,
+.navbar,
+.navbar-absolute,
+.top-table,
+.title-synthese,
+.panel-header,
+.footer
+{
+    display: none;
+}
+
+#table {
+position: absolute;
+    font-size: 12px;
+    top: 5%;
+    left: 0;
+}
+

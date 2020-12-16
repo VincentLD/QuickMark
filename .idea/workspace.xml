@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d5daf5-2bc2-440a-bdf0-9b4a4f351dbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QuickMark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuickMark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Exam_StudentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Exam_StudentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_25_135650_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_135650_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InternshipsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InternshipsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SyntheseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SyntheseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/paper-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/paper-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/paper-dashboard.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/paper-dashboard.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/paper-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/paper-dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/companies/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/companies/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/gestionNotes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gestionNotes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/synthese/_table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/synthese/_table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/synthese/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/synthese/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +236,11 @@
       <workItem from="1607269656446" duration="86000" />
       <workItem from="1607269754462" duration="3069000" />
       <workItem from="1607525037062" duration="6880000" />
+      <workItem from="1607784614339" duration="6571000" />
+      <workItem from="1607876042346" duration="2642000" />
+      <workItem from="1607878751488" duration="543000" />
+      <workItem from="1608035409744" duration="12184000" />
+      <workItem from="1608130476905" duration="4789000" />
     </task>
     <servers />
   </component>
@@ -296,11 +323,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1086" y="186" width="1424" height="717" key="dock-window-4/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601130346038" />
-    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup" timestamp="1607531873816">
+    <state x="303" y="334" key="run.anything.popup" timestamp="1607878683577">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="303" y="334" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607878683577" />
+    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup" timestamp="1608133983624">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607272296399" />
-    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607531873816" />
+    <state x="831" y="303" width="896" height="913" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1608133983624" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

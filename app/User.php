@@ -10,16 +10,7 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use Notifiable;
 
-    public function verifyUser() {
-        return $this->hasOne('App\VerifyUser');
-    }
-
-    public function exam() {
-        return $this->belongsToMany('App\Exam');
-    }
-
     protected $guarded = [];
-
 
     protected $hidden = [
         'password', 'remember_token',
@@ -30,4 +21,13 @@ class User extends Authenticatable implements MustVerifyEmail
         'birthdate' => 'datetime:d/m/Y'
     ];
 
+    public function verifyUser()
+    {
+        return $this->hasOne('App\VerifyUser');
+    }
+
+    public function exam()
+    {
+        return $this->belongsToMany('App\Exam');
+    }
 }

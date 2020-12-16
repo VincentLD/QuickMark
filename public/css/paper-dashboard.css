@@ -1435,7 +1435,6 @@ p.description {
 
 .category,
 .card-category {
-  text-transform: capitalize;
   font-weight: 400;
   color: #9A9A9A;
   font-size: 0.7142em; }
@@ -1880,7 +1879,6 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
     border-radius: 50%;
     border: 1px solid transparent; }
   .navbar .navbar-brand {
-    text-transform: capitalize;
     font-size: 20px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

@@ -14,7 +14,7 @@ Auth::routes(['verify' => true]);
 Route::get('/home', 'HomeController@index')->name('home');
 
 /*User*/
-Route::get('/user/verify/{token}', 'UsersController@verifyUser');
+Route::get('/user/verify/{token}', 'UsersController@verifyUser')->withoutMiddleware(['verified']);
 Route::get('add-prof', 'UsersController@create')->name('add-prof');
 Route::post('/users', 'UsersController@store')->name('accountProf');
 Route::get('/set-password', 'UsersController@setPassword');

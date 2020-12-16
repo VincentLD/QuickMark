@@ -18,6 +18,8 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
     <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/print.css" rel="stylesheet" media="print" />
+
 
 </head>
 <body>
@@ -161,16 +163,6 @@
 <script src="/js/core/popper.min.js" type="text/javascript"></script>
 <script src="/js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="/js/plugins/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
-<script src="/js/plugins/moment.min.js"></script>
-
-<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-<script src="/js/plugins/bootstrap-switch.js"></script>
-
-<!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
-<script src="/js/plugins/jquery.dataTables.min.js"></script>
-
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
 <!-- Chart JS -->
 <script src="/js/plugins/chartjs.min.js"></script>
@@ -180,4 +172,8 @@
 
 <!-- Control Center for Paper Dashboard: parallax effects, scripts for the example pages etc -->
 <script src="/js/paper-dashboard.js?v=2.0.0" type="text/javascript"></script>
+
+<!-- Download PDF-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.2.0/jspdf.umd.min.js"></script>
+
 </html>

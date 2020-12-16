@@ -1,13 +1,13 @@
 @extends('layouts.layout')
 @section('content')
     <div class="container-fluid">
-        <div class="row row-prof">
-            <div class="card col-md-5 card-prof">
+        <div class="row row-prof align-items-center">
+            <div class="card col-md-5 card-prof" style="height: fit-content">
                 <div class="card-header">
                     <h4 class="text-center">Ajouter une entreprise</h4>
                 </div>
-                <div class="card-body">
-                    <form method="POST" action="{{ route('entreprise') }}">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                    <form method="POST" action="{{ route('entreprise') }}" class="w-100">
                         @csrf
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nom de l\'entreprise') }}</label>

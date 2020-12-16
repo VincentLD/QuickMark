@@ -65,6 +65,7 @@ class UsersController extends Controller
                 $status = "Votre compte est maintenant vérifié, veuillez définir votre mot de passe.";
 
             }
+
             return view('users.setpassword')->with('status', $status);
         } else {
             return redirect('/login')->with('warning', "Désolé, votre compte ne peut pas être identifié.");
