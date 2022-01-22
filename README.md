@@ -6,5 +6,7 @@
 4) Dans le fichier .env, renseignez juste cette ligne `DB_CONNECTION=sqlite`
 5) Peuplez la base de données: `$ php artisan migrate:fresh --seed` 
 
+![screenshot](https://github.com/VincentLD/QuickMark/blob/master/public/images/Capture%20d%E2%80%99%C3%A9cran%202022-01-22%20%C3%A0%2016.15.34.png)
+
 ## License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
